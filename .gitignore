@@ -1,4 +1,15 @@
+# Virtual Environment
 venv/
+env/
+
+# Python Cache
 __pycache__/
+*.pyc
+
+# Data Files (Keep git clean)
+data/raw/
+data/processed/
+
+# IDE / System files
+.vscode/
 .DS_Store
-data/raw/*.json
